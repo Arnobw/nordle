@@ -13,11 +13,17 @@
 //     document.execCommand("copy");
 //     $temp.remove();
 //   }
-  
+
+
 
 function copyToClipboard(element) {
     var text = $(element).clone().find('br').prepend('\r\n').end().text()
     element = $('<textarea>').appendTo('body').val(text).select()
     document.execCommand('copy')
     element.remove()
+    $("#score").show();
   }
+
+  $(document).ready(function() {
+    $('#score').hide();
+ });
