@@ -7,10 +7,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>Nordle, a daily no-word game</title>
+        <meta name="description" content="Nordle, a daily no-word game">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
         
     </head>
     <body>
@@ -73,13 +74,27 @@
 
             
 
-            <div class="btn">SHARE</div>
+            <div id="btn" onclick="copyToClipboard('#p2')">SHARE</div>
+
+
+<p id="p2">Nordle 234 0/6
+
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛
+    ⬛⬛⬛⬛⬛</p>
+
+
+
 
         </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+        <script src="js/main.js" async defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     </body>
 </html>
