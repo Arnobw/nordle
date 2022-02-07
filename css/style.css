@@ -7,13 +7,21 @@ body {
 }
  
 .header {
-margin:auto 0;
-width:100%;
+width:400px;
 text-align : center;
+font-size: 18px;
+letter-spacing: 0.2rem;
+text-transform: uppercase;
+padding:0;
+margin:0 auto;
+margin-bottom: -20px;
 }
 
-.header hr {
+hr {
+    height: 2px;
     background-color: #3A3A3C;
+    border: none;
+    width:400px;
 }
 
 .div-border {
@@ -45,5 +53,20 @@ text-align : center;
     box-sizing: border-box;
     outline: 2px #3A3A3C solid;
     margin:3px;
+}
 
+.btn {
+    background-color:#538D4E;
+    padding:10px;
+    width:50px;
+    text-align: center;
+    margin-top:7px;
+    cursor:pointer;
+    color:#FFF;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #FFF;
+    color:#538D4E;
 }
